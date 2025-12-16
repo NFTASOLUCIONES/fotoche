@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Feliz Cumpleaños Steisy !!!!!</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets\css\main.css">
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+
+<body class="landing">
+
+	<!-- Audio de fondo: coloca el archivo `assets/audio/music.mp3` en la ruta indicada -->
+	<audio id="bg-music" src="Mi Valentin.mp3" preload="auto" loop></audio>
+	<button id="music-toggle" title="Reproducir/pausar música">►</button>
+
+
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="file:///E:/PROYECTOS/Tarjeta%20cumplea%C3%B1os%20Sofi/index.html">Feliz Cumpleaños Sofi
+					!!!!!</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+
+
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>Felíz Cumpleaños Steisy !!!!!</h2>
+				<p>Hoy es un día muy especial<br>
+					el 16 de diciembre nacio una persona muy linda<br>
+					y hoy queremos celebrar ese dia tan especial que es tu cumpleaños</p>
+				<ul class="actions">
+					<li><a href="file:///E:/PROYECTOS/Tarjeta%20cumplea%C3%B1os%20Sofi/index.html#one"
+							class="button special scrolly">Inicio</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper alt style2">
+			<section id="tree" class="spotlight">
+				<div class="image"><img src="fotos\IMG3.jpeg" alt=""></div>
+				<div class="content">
+					<h2>Eres un ser lleno de luz<br>
+						regalando tu alegria</h2>
+
+					<p>Eres como mi wifi, es imposible vivir sin ti</p>
+					<blockquote>Los momentos que pasamos juntos son los más hermosos de mi vida</blockquote>
+
+				</div>
+			</section>
+			<section id="four" class="spotlight">
+				<div class="image"><img src="fotos\IMG8.jpeg" alt=""></div>
+				<div class="content">
+					<h2>Pasar tiempo contigo es ...<br>
+						Reconfortante</h2>
+					<ul class="icons major">
+						<li><span class="icon fa-smile-o major style2"><span class="label">Ipsum</span></span></li>
+					</ul>
+					<p>Cada momento contigo es divertido, interesante o retador. Hablar contigo es muy relajante y saber
+						tu punto de vista siempre es muy importante.</p>
+					<blockquote>"La amistad es un amor que no se comunica por los sentidos"</blockquote>
+					<p>Ramón de Campoamor</p>
+				</div>
+			</section>
+			<section id="five" class="spotlight">
+				<div class="image"><img src="fotos\IMG_20250326_175830.jpg" alt=""></div>
+				<div class="content">
+					<h2>He encontrado en ti ...<br>
+						Grandes Momentos</h2>
+					<ul class="icons major">
+						<li><span class="icon fa-search major style2"><span class="label">Ipsum</span></span></li>
+					</ul>
+					<p>Solamente salir contigo es encontrar un mundo lleno de cosas nuevas, siempre tu nivel de detalle
+						de ver las cosas me da fascinación y me hace ver que tu amas las pequeñas cosas de la vida, como
+						yo :3 </p>
+					<blockquote>"Soy feliz así con estas pequeñas cosas que me unen a tí, como cada pétalo a su rosa"
+					</blockquote>
+					<p>Porta </p>
+				</div>
+			</section>
+			<section id="six" class="spotlight">
+				<div class="image"><img src="fotos\Screenshot_20250922_220621_com_whatsapp_StatusPlaybackActivity.jpg"
+						alt=""></div>
+				<div class="content">
+					<h2>Mi pequeño punto de<br>
+						Felicidad</h2>
+					<ul class="icons major">
+						<li><span class="icon fa-map-marker major style2"><span class="label">Ipsum</span></span></li>
+					</ul>
+					<p>Eres el ser mas especial para mi, la persona que me hace sentir la felicidad</p>
+					<p>Gracias por ser mi luz en la oscuridad</p>
+				</div>
+			</section>
+			<section id="seven" class="spotlight">
+				<div class="image"><img src="fotos\IMG_20250326_182216.jpg" alt=""></div>
+				<div class="content">
+					<h2>Y por todo esto te deseo...<br>
+						Un feliz cumpleaños!</h2>
+					<ul class="icons major">
+						<li><span class="icon fa-birthday-cake major style2"><span class="label">Ipsum</span></span>
+						</li>
+					</ul>
+					<p>Gracias por dejarme compartir este tiempo contigo, te quiero mucho mi Princesa hermosa
+
+				</div>
+
+
+	</div>
+	</section>
+	</section>
+
+	</div>
+
+
+	<!-- Scripts -->
+	<script>
+		// Intentar reproducir el audio al cargar. Si el navegador bloquea el autoplay,
+		// se mostrará el botón `#music-toggle` para que el usuario lo active.
+		(function () {
+			var audio = document.getElementById('bg-music');
+			var btn = document.getElementById('music-toggle');
+			function setPlayingState(playing) {
+				btn.textContent = playing ? '❚❚' : '►';
+			}
+			// Intento de autoplay
+			function tryPlay() {
+				audio.play().then(function () {
+					setPlayingState(true);
+					btn.style.display = 'none';
+				}).catch(function () {
+					// Autoplay falló: mostrar control para que el usuario inicie
+					btn.style.display = 'flex';
+					setPlayingState(false);
+				});
+			}
+			btn.addEventListener('click', function (e) {
+				e.preventDefault();
+				if (audio.paused) {
+					audio.play();
+					setPlayingState(true);
+					btn.style.display = 'none';
+				} else {
+					audio.pause();
+					setPlayingState(false);
+					btn.style.display = 'flex';
+				}
+			});
+			// Ejecutar después de que el DOM esté listo
+			document.addEventListener('DOMContentLoaded', tryPlay);
+		})();
+	</script>
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/jquery.min.js"></script>
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/jquery.scrollex.min.js"></script>
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/jquery.scrolly.min.js"></script>
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/skel.min.js"></script>
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="./Feliz Cumpleaños Sofia !!!!!_files/main.js"></script>
+
+
+
+
+</body>
+<footer>
+	<p>Diseñado por N.F.T.A-CORP</p>
+	<p>N.F.T.A-CORP Fue creado en parte fue inspirado en ti</p>
+	<p>Gracias por todo</p>
+</footer>
+
+</html>
